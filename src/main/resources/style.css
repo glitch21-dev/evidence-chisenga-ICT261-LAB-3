@@ -1,0 +1,38 @@
+.root {
+    -fx-base: #1b2335;
+    -fx-background: #141a29;
+    -fx-accent: #34d399;
+    -fx-focus-color: #38bdf8;
+    -fx-faint-focus-color: transparent;
+    -fx-font-size: 14px;
+}
+
+.label {
+    -fx-text-fill: #e5e7eb;
+}
+
+.title-label {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #34d399;
+}
+
+.section-label {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+.button.primary {
+    -fx-background-color: #2563eb;
+    -fx-text-fill: white;
+}
+
+.status-error {
+    -fx-text-fill: #f87171;
+    -fx-font-weight: bold;
+}
+
+.status-success {
+    -fx-text-fill: #34d399;
+    -fx-font-weight: bold;
+}
